@@ -780,37 +780,6 @@
       }
     ]
   },
-  "i7qxaFhFHPfe3fGEgsbcE": {
-    "title": "Container and Pod Security",
-    "description": "Kubernetes (k8s) can secure containers and pods through measures like using trusted container images, limiting container privileges, enforcing pod-level security policies, implementing network security measures, using access controls with RBAC, and managing sensitive information with Secrets and ConfigMaps. These practices help organizations reduce the risk of security incidents in their k8s clusters.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Configure a Security Context for a Pod or Container",
-        "url": "https://kubernetes.io/docs/tasks/configure-pod-container/security-context/",
-        "type": "article"
-      },
-      {
-        "title": "Tutorial: Create a Kubernetes Pod Security Policy",
-        "url": "https://thenewstack.io/tutorial-create-a-kubernetes-pod-security-policy/",
-        "type": "article"
-      },
-      {
-        "title": "6 Overlooked Yet Important Kubernetes Features to Secure",
-        "url": "https://thenewstack.io/6-overlooked-yet-important-kubernetes-features-to-secure/",
-        "type": "article"
-      },
-      {
-        "title": "Explore top posts about Security",
-        "url": "https://app.daily.dev/tags/security?ref=roadmapsh",
-        "type": "article"
-      },
-      {
-        "title": "Kubernetes Security - Security Context for a Pod or Container",
-        "url": "https://www.youtube.com/watch?v=i8wfvoVf2xs",
-        "type": "video"
-      }
-    ]
-  },
   "AgsQnQjyTLUFhFpRdcE13": {
     "title": "Monitoring and Logging",
     "description": "Observability in Kubernetes (k8s) refers to the ability to gain insight into the inner workings of your cluster, applications, and services running on top of it. An observability engine in k8s is a tool or platform that facilitates the collection, analysis, and visualization of data from various sources in your k8s environment. Some popular observability engines in k8s include Prometheus, Grafana, Jaeger, and Elastic Stack (ELK).\n\nVisit the following resources to learn more:",
@@ -1158,7 +1127,7 @@
   },
   "Pymc9H-lRHVPy7M9eSaPD": {
     "title": "CI / CD Integration",
-    "description": "In CI/CD pattern, the build, test, and deployment of applications to Kubernetes are fully automated. The CI pipeline creates the container image, runs tests, and pushes it to a registry. The CD pipeline then updates Kubernetes manifests or Helm charts and applies them to the cluster using tools like Argo CD, Flux, or kubectl. This makes deployments consistent, repeatable, and fast.\n\nVisit the following resources to learn more:",
+    "description": "In CI/CD pattern, the build, test, and deployment of applications to Kubernetes are fully automated. The CI pipeline creates the container image, runs tests, and pushes it to a registry. The CD pipeline then updates Kubernetes manifests or Helm charts and applies them to the cluster using tools like Octopus Deploy, Argo CD, Flux, or kubectl. This makes deployments consistent, repeatable, and fast.\n\nVisit the following resources to learn more:",
     "links": [
       {
         "title": "Kubernetes CI/CD Pipelines – 8 Best Practices and Tools",
@@ -1168,6 +1137,11 @@
       {
         "title": "8 Kubernetes CI/CD tools every developer should know",
         "url": "https://octopus.com/devops/kubernetes-deployments/kubernetes-ci-cd-tools-for-developers/",
+        "type": "article"
+      },
+      {
+        "title": "Deploy to Kubernetes with Octopus Deploy",
+        "url": "https://octopus.com/use-case/kubernetes?utm_source=roadmap&utm_medium=link&utm_campaign=kubernetes-ci-cd-integration",
         "type": "article"
       }
     ]
@@ -1425,5 +1399,10 @@
         "type": "video"
       }
     ]
+  },
+  "gateway-api@rgHgNU_aLUibLhl_Cyw3F.md": {
+    "title": "Gateway API",
+    "description": "",
+    "links": []
   }
 }
