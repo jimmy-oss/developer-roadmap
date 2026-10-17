@@ -36,42 +36,15 @@
       }
     ]
   },
-  "jJukG4XxfFcID_VlQKqe-": {
-    "title": "Data Engineering vs Data Science",
-    "description": "Data engineering and data science are distinct but complementary roles within the field of data. Data engineering focuses on building and maintaining the infrastructure for data collection, storage, and processing, essentially creating the systems that make data available for downstream users. On the other hand, data science professionals, like data analysts and data scientists, uses that data to extract insights, build predictive models, and ultimately inform decision-making.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Data Scientist vs Data Engineer",
-        "url": "https://www.datacamp.com/blog/data-scientist-vs-data-engineer",
-        "type": "article"
-      },
-      {
-        "title": "Should You Be a Data Scientist, Analyst or Engineer?",
-        "url": "https://www.youtube.com/watch?v=dUnKYhripIE",
-        "type": "video"
-      }
-    ]
+  "data-eng-vs-data-science@jJukG4XxfFcID_VlQKqe-.md": {
+    "title": "Data Eng. vs Data Science",
+    "description": "",
+    "links": []
   },
-  "3BxbkrBp8veZj38zdwN8s": {
-    "title": "Skills and Responsibilities",
-    "description": "Here’s a list of essential data engineering skills:\n\n1.  SQL & Database Management: Ability to query, manipulate, and design relational databases efficiently using SQL. This is the bread-and-butter for extracting, transforming, and analyzing data.\n    \n2.  Data Modeling: Designing schemas and structures (star, snowflake, normalized forms) to optimize storage, performance, and usability of data.\n    \n3.  ETL/ELT Development: Building Extract-Transform-Load (or Load-Transform) pipelines to move and reshape data between systems while ensuring quality and consistency.\n    \n4.  Big Data Frameworks: Proficiency with tools like Apache Spark, Hadoop, or Flink to process and analyze massive datasets in distributed environments.\n    \n5.  Cloud Platforms: Working knowledge of AWS, Azure, or GCP for storage, compute, and orchestration (e.g., S3, BigQuery, Dataflow, Redshift).\n    \n6.  Data Warehousing: Understanding concepts and tools (Snowflake, BigQuery, Redshift) for centralizing, optimizing, and querying large volumes of business data.\n    \n7.  Workflow Orchestration: Using tools like Apache Airflow, Prefect, or Dagster to automate and schedule complex data pipelines reliably.\n    \n8.  Scripting & Programming: Strong skills in Python or Scala for building data processing scripts, automation tasks, and integration with APIs.\n    \n9.  Data Governance & Security: Applying practices for data quality, lineage tracking, access control, compliance (GDPR, HIPAA), and encryption.\n    \n10.  Monitoring & Performance Optimization: Setting up alerts, logging, and tuning pipelines to ensure they run efficiently, catch errors early, and scale smoothly.\n    \n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Top Data Engineer Skills and Responsibilities",
-        "url": "https://www.simplilearn.com/data-engineer-role-article",
-        "type": "article"
-      },
-      {
-        "title": "5 Essential Data Engineering Skills For 2025",
-        "url": "https://www.datacamp.com/blog/essential-data-engineering-skills",
-        "type": "article"
-      },
-      {
-        "title": "What skills do you need as a Data Engineer?",
-        "url": "https://www.youtube.com/watch?v=sF04UxNAvmg",
-        "type": "video"
-      }
-    ]
+  "skills--responsibilities@3BxbkrBp8veZj38zdwN8s.md": {
+    "title": "Skills & Responsibilities",
+    "description": "",
+    "links": []
   },
   "Ouph2bHeLQsrHl45ar4Cs": {
     "title": "Data Engineering Lifecycle",
@@ -254,31 +227,10 @@
       }
     ]
   },
-  "fqmn6DPOA5MH7UWYv6ayn": {
-    "title": "Data Structures and Algorithms",
-    "description": "**Data Structures** are primarily used to collect, organize and perform operations on the stored data more effectively. They are essential for designing advanced-level Android applications. Examples include Array, Linked List, Stack, Queue, Hash Map, and Tree.\n\n**Algorithms** are a sequence of instructions or rules for performing a particular task. Algorithms can be used for data searching, sorting, or performing complex business logic. Some commonly used algorithms are Binary Search, Bubble Sort, Selection Sort, etc. A deep understanding of data structures and algorithms is crucial in optimizing the performance and the memory consumption of data pipelines\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Interview Questions about Data Structures",
-        "url": "https://www.csharpstar.com/csharp-algorithms/",
-        "type": "article"
-      },
-      {
-        "title": "Explore top posts about Algorithms",
-        "url": "https://app.daily.dev/tags/algorithms?ref=roadmapsh",
-        "type": "article"
-      },
-      {
-        "title": "Data Structures Illustrated",
-        "url": "https://www.youtube.com/watch?v=9rhT3P1MDHk&list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY",
-        "type": "video"
-      },
-      {
-        "title": "Intro to Algorithms",
-        "url": "https://www.youtube.com/watch?v=rL8X2mlNHPM",
-        "type": "video"
-      }
-    ]
+  "data-structures--algorithms@fqmn6DPOA5MH7UWYv6ayn.md": {
+    "title": "Data Structures & Algorithms",
+    "description": "",
+    "links": []
   },
   "02TADW_PPVtTU_rWV3jf1": {
     "title": "Git and GitHub",
@@ -530,16 +482,10 @@
       }
     ]
   },
-  "wDDWQgMVBYK4WcmHq_d6l": {
-    "title": "Data Collection Considerations",
-    "description": "Before designing the technology archecture to collect and store data, you should consider the following factors:\n\n*   **Bounded versus unbounded**. Bounded data has defined start and end points, forming a finite, complete dataset, like the daily sales report. Unbounded data has no predefined limits in time or scope, flowing continuously and potentially indefinitely, such as user interaction events or real-time sensor data. The distinction is critical in data processing, where bounded data is suitable for batch processing, and unbounded data is processed in stream processing or real-time systems.\n*   **Frequency.** Collection processes can be batch, micro-batch, or real-time, depending on the frequency you need to store the data.\n*   **Synchronous versus asynchronous.** Synchronous ingestion is a process where the system waits for a response from the data source before proceeding. In contrast, asynchronous ingestion is a process where data is ingested without waiting for a response from the data source. Each approach has its benefits and drawbacks, and the choice depends on the specific requirements of the data ingestion process and the business needs.\n*   **Throughput and scalability.** As data demands grow, you will need scalable ingestion solutions to keep pace. Scalable data ingestion pipelines ensure that systems can handle increasing data volumes without compromising performance. Without scalable ingestion, data pipelines face challenges like bottlenecks and data loss. Bottlenecks occur when components can't process data fast enough, leading to delays and reduced throughput. Data loss happens when systems are overwhelmed, causing valuable information to be discarded or corrupted.\n*   **Reliability and durability.** Data reliability in the ingestion phase means ensuring that the acquired data from various sources is accurate, consistent, and trustworthy as it enters the data pipeline. Durability entails making sure that data isn’t lost or corrupted during the data collection process.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Fundamentals of Data Engineering",
-        "url": "https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/",
-        "type": "article"
-      }
-    ]
+  "data-collection-ideas@wDDWQgMVBYK4WcmHq_d6l.md": {
+    "title": "Data Collection Ideas",
+    "description": "",
+    "links": []
   },
   "g4UC0go7OPCJYJlac9w-i": {
     "title": "Database Fundamentals",
@@ -666,21 +612,10 @@
       }
     ]
   },
-  "5KgPfywItqLFQRnIZldZH": {
-    "title": "Slowly Changing Dimension - SCD",
-    "description": "Slowly Changing Dimensions (SCDs) are a data warehousing technique used to track changes in dimension data over time. Instead of simply overwriting old data with new data, SCDs allow you to maintain historical records of how dimension attributes have changed. This is crucial for accurate analysis of historical trends and business performance.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "WMastering Slowly Changing Dimensions (SCD)",
-        "url": "https://www.datacamp.com/tutorial/mastering-slowly-changing-dimensions-scd",
-        "type": "article"
-      },
-      {
-        "title": "Implementing Slowly Changing Dimensions (SCDs) in Data Warehouses",
-        "url": "https://www.sqlshack.com/implementing-slowly-changing-dimensions-scds-in-data-warehouses/",
-        "type": "article"
-      }
-    ]
+  "slowly-changing-dimension@5KgPfywItqLFQRnIZldZH.md": {
+    "title": "Slowly Changing Dimension ",
+    "description": "",
+    "links": []
   },
   "k_XSLLwb0Jk0Dd1sw-MpR": {
     "title": "Horizontal vs Vertical Scaling",
@@ -943,31 +878,10 @@
       }
     ]
   },
-  "uZYQ8tqTriXt_JIOjcM9_": {
-    "title": "NoSQL Databsases",
-    "description": "NoSQL databases are a category of database management systems designed for handling unstructured, semi-structured, or rapidly changing data. Unlike traditional relational databases, which use fixed schemas and SQL for querying, NoSQL databases offer flexible data models and can be classified into several types:\n\n1.  **Document Stores**: Store data in JSON, BSON, or XML formats, allowing for flexible and hierarchical data structures (e.g., MongoDB, CouchDB).\n2.  **Key-Value Stores**: Store data as key-value pairs, suitable for high-speed read and write operations (e.g., Redis, Riak).\n3.  **Column-Family Stores**: Store data in columns rather than rows, which is useful for handling large volumes of data and wide columnar tables (e.g., Apache Cassandra, HBase).\n4.  **Graph Databases**: Optimize the storage and querying of data with complex relationships using graph structures (e.g., Neo4j, Amazon Neptune).\n\nNoSQL databases are often used for applications requiring high scalability, flexibility, and performance, such as real-time analytics, content management systems, and distributed data storage.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "NoSQL Explained",
-        "url": "https://www.mongodb.com/nosql-explained",
-        "type": "article"
-      },
-      {
-        "title": "Explore top posts about NoSQL",
-        "url": "https://app.daily.dev/tags/nosql?ref=roadmapsh",
-        "type": "article"
-      },
-      {
-        "title": "How do NoSQL Databases work",
-        "url": "https://www.youtube.com/watch?v=0buKQHokLK8",
-        "type": "video"
-      },
-      {
-        "title": "SQL vs NoSQL Explained",
-        "url": "https://www.youtube.com/watch?v=ruz-vK8IesE",
-        "type": "video"
-      }
-    ]
+  "nosql-databases@uZYQ8tqTriXt_JIOjcM9_.md": {
+    "title": "NoSQL Databases",
+    "description": "",
+    "links": []
   },
   "sGkAOVl3C-xIIAdtDH9jq": {
     "title": "Document",
@@ -1346,9 +1260,9 @@
       }
     ]
   },
-  "J854xPM1X0BWlhtJw7Hs_": {
-    "title": "Data Warehousing Architectures",
-    "description": "Data Warehousing Architectures refers to the different systems and solutions for storing data. Options include traditional data warehouse, data marts, data lakes and data mesh architectures.",
+  "data-warehouse-architectures@J854xPM1X0BWlhtJw7Hs_.md": {
+    "title": "Data Warehouse Architectures",
+    "description": "",
     "links": []
   },
   "ArOoKuf9scAURs8NRjAru": {
@@ -1910,11 +1824,6 @@
       }
     ]
   },
-  "wwPO5Uc6qnwYgibrbPn7y": {
-    "title": "Streaming",
-    "description": "Streaming processing, also known as real-time processing, involves the immediate ingestion, as well as analysis, of data as it is generated, providing instantaneous insights and enabling timely decisions in time-sensitive applications like financial trading, medical monitoring, and autonomous vehicles. This differs from batch processing, which handles data in later batches, and typically involves continuous data streaming, low latency, and high availability to deliver immediate outcomes for critical tasks.",
-    "links": []
-  },
   "oqxNr0Lj34mgRi5Z5wJt_": {
     "title": "Realtime",
     "description": "Real-time processing, also known as streaming processing, involves the immediate ingestion, as well as analysis, of data as it is generated, providing instantaneous insights and enabling timely decisions in time-sensitive applications like financial trading, medical monitoring, and autonomous vehicles. This differs from batch processing, which handles data in later batches, and typically involves continuous data streaming, low latency, and high availability to deliver immediate outcomes for critical tasks.",
@@ -1999,21 +1908,10 @@
       }
     ]
   },
-  "TAh4__7U58J7fduU9a1Ol": {
-    "title": "Perfect",
-    "description": "Prefect is an open-source orchestration engine that turns your Python functions into production-grade data pipelines with minimal friction. You can build and schedule workflows in pure Python—no DSLs or complex config files—and run them anywhere you can run Python. Prefect handles the heavy lifting for you out of the box: automatic state tracking, failure handling, real-time monitoring, and more.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Prefect Docs",
-        "url": "https://docs.prefect.io/v3/get-started",
-        "type": "article"
-      },
-      {
-        "title": "Getting Started with Prefect",
-        "url": "https://www.youtube.com/watch?v=D5DhwVNHWeU",
-        "type": "video"
-      }
-    ]
+  "prefect@TAh4__7U58J7fduU9a1Ol.md": {
+    "title": "Prefect",
+    "description": "",
+    "links": []
   },
   "hB0y8A2U3owpAbTUb7LN5": {
     "title": "Cluster Computing Basics",
@@ -3276,21 +3174,10 @@
       }
     ]
   },
-  "HDVhttLNMLmIAVEOBCOQ3": {
-    "title": "Authentication vs Authorization",
-    "description": "Authentication and authorization are popular terms in modern computer systems that often confuse people. **Authentication** is the process of confirming the identity of a user or a device (i.e., an entity). During the authentication process, an entity usually relies on some proof to authenticate itself, i.e. an authentication factor. In contrast to authentication, **authorization** refers to the process of verifying what resources entities (users or devices) can access, or what actions they can perform, i.e., their access rights.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "Basic Authentication",
-        "url": "https://roadmap.sh/guides/basic-authentication",
-        "type": "article"
-      },
-      {
-        "title": "What is Authentication vs Authorization?",
-        "url": "https://auth0.com/intro-to-iam/authentication-vs-authorization",
-        "type": "article"
-      }
-    ]
+  "authentication-authorization@HDVhttLNMLmIAVEOBCOQ3.md": {
+    "title": "Authentication, Authorization",
+    "description": "",
+    "links": []
   },
   "2PqRgrYuJi_pPhOS0AkoP": {
     "title": "Encryption",
@@ -3460,26 +3347,5 @@
         "type": "video"
       }
     ]
-  },
-  "S8XMtFKWlnUqADElFp0Zw": {
-    "title": "Machine Learning",
-    "description": "Machine learning, a subset of artificial intelligence, is an indispensable tool in the hands of a data analyst. It provides the ability to automatically learn, improve from experience and make decisions without being explicitly programmed. In the context of a data analyst, machine learning contributes significantly in uncovering hidden insights, recognising patterns or making predictions based on large amounts of data. Through the use of varying algorithms and models, data analysts are able to leverage machine learning to convert raw data into meaningful information, making it a critical concept in data analysis.\n\nVisit the following resources to learn more:",
-    "links": [
-      {
-        "title": "What is Machine Learning (ML)?",
-        "url": "https://www.ibm.com/topics/machine-learning",
-        "type": "article"
-      },
-      {
-        "title": "What is Machine Learning?",
-        "url": "https://www.youtube.com/watch?v=9gGnTQTYNaE",
-        "type": "video"
-      }
-    ]
-  },
-  "VQv-c7buU2l-IDzRZBMRo": {
-    "title": "MLOps",
-    "description": "MLOps is a practice for collaboration and communication between data scientists and operations professionals to help manage production ML lifecycle. It is a set of best practices that aims to automate the ML lifecycle, including training, deployment, and monitoring. MLOps helps organizations to scale ML models and deliver business value faster.",
-    "links": []
   }
 }
